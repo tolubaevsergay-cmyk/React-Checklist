@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  background: #f0f2f5;
+  padding: 40px 20px;
+}
+.checklist {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.checklist__form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.checklist__input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.checklist__input:focus,
+.checklist__edit-input:focus {
+  outline: none;
+  border-color: #4c8bf5;
+}
+
+.checklist__add-btn {
+  padding: 10px 16px;
+  background: #4c8bf5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.checklist__add-btn:hover {
+  background: #3a76e0;
+}
+
+.checklist__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
